@@ -5,3 +5,7 @@
 # WordPress
 /backend/wp-content/uploads
 /backend/wp-config.php
+
+frontend/.git
+backend/.git
+
