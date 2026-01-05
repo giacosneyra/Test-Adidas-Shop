@@ -1,0 +1,437 @@
+# Translation of Plugins - Tilopay - Development Readme (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Tilopay - Development Readme (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Tilopay - Development Readme (trunk)\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2023-12-26 10:55-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.4\n"
+
+#. Found in description paragraph.
+msgid "Accept credit and debit cards on your Central American and Caribbean WooCommerce Store"
+msgstr "Acepta tarjetas de crédito y débito en tu tienda WooCommerce de Centroamérica y Caribe"
+
+#. Plugin name.
+msgid "Tilopay"
+msgstr "Tilopay"
+
+#. Found in installation list item.
+msgid "Click on tilopay settings or go to WooCommerce settings &gt; payments &gt; click on tilopay."
+msgstr "De clic en ajustes de tilopay o vaya a los ajustes de WooCommerce &gt; pagos &gt; haga clic en tilopay."
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress"
+msgstr "Activar el plugin a través del menú 'Plugins' en WordPress"
+
+#. Found in installation list item.
+msgid "Upload <code>tilopay</code> to the <code>/wp-content/plugins/</code> directory"
+msgstr "Subir <code>tilopay</code> a la carpeta <code>/wp-content/plugins/</code>"
+
+#. Found in installation list item.
+msgid "Follow the <a href=\"https://app.tilopay.com/admin/guide/\">Documentation on Tilopay admin for WooCommerce</a>"
+msgstr "Siga la <a href=\"https://app.tilopay.com/admin/guide/\">documentación en el administrador de Tilopay para WooCommerce</a>"
+
+#. Found in installation list item.
+msgid "Click on tilopay settings or go to WooCommerce settings, payments, click on tilopay."
+msgstr "Hacer clic en ajustes de tilopay o vaya a las configuración de WooCommerce, pagos, dar clic en tilopay."
+
+#. Found in installation list item.
+msgid "Install, then Activate it."
+msgstr "Instalar, luego activarlo."
+
+#. Found in installation list item.
+msgid "Search For \"Tilopay\"."
+msgstr "Buscar por \"Tilopay\"."
+
+#. Found in installation list item.
+msgid "Go to the WordPress Dashboard \"Add New Plugin\" section."
+msgstr "Vaya al escritorio de WordPress \"Agregar nuevo Plugin\"."
+
+#. Found in installation header.
+msgid "Old Way:"
+msgstr "Vieja forma:"
+
+#. Found in installation header.
+msgid "Modern Way:"
+msgstr "Manera moderna:"
+
+#. Found in description paragraph.
+msgid ""
+"Please before update save the below info: Integration key, API user and API password,\n"
+"if you already updated and didn't save it, don't worry you can get from <a href=\"https://app.tilopay.com/admin/product/\">Tilopay admin</a>"
+msgstr ""
+"Antes de actualizar, guarde la siguiente información: clave de la integración, usuario de la API y contraseña de la API,\n"
+"Si ya actualizó y no guardó los datos, no se preocupe, puede obtenerlos desde el <a href=\"https://app.tilopay.com/admin/product/\">admin Tilopay</a>"
+
+#. Found in description header.
+msgid "Important update notice:"
+msgstr "Aviso importante de actualización:"
+
+#. Found in faq paragraph.
+msgid "Send your support request to sac@tilopay.com"
+msgstr "Envía tu solicitud de soporte a sac@tilopay.com"
+
+#. Found in faq header.
+msgid "Where can I find support"
+msgstr "¿Dónde puedo encontrar soporte?"
+
+#. Found in installation header.
+msgid "Requieres WooCommerce"
+msgstr "Se necesita WooCommerce"
+
+#. Found in description list item.
+msgid "Kount"
+msgstr "Kount"
+
+#. Found in description list item.
+msgid "3D Secure"
+msgstr "Seguridad de 3D"
+
+#. Found in description list item.
+msgid "Partial and Full Captures"
+msgstr "Capturas parciales y completas"
+
+#. Found in description list item.
+msgid "Partial and Full Refunds"
+msgstr "Reembolso parcial y total"
+
+#. Found in description list item.
+msgid "Multi-affiliate"
+msgstr "Multi-afiliado"
+
+#. Found in description list item.
+msgid "Multi-currency"
+msgstr "Multi moneda"
+
+#. Found in description list item.
+msgid "Multi-country"
+msgstr "Multi-país"
+
+#. Found in description header.
+msgid "Features And Options:"
+msgstr "Características y opciones:"
+
+#. Screenshot description.
+msgid "Settings Payment"
+msgstr "Ajustes Tilopay"
+
+#. Screenshot description.
+msgid "Modal Payment"
+msgstr "Ventana de pago"
+
+#. Found in changelog paragraph.
+msgid ""
+"= 2023-11-06 - version 2.0.7\n"
+"*Validate if SDK encrypt data card.\n"
+"*Redirect to check if hash validation are no same from Tilopay.\n"
+"*Add default title.\n"
+"*Use own nonce validations checkout.\n"
+"*Making compatibility with WOO HPOS or WP posts storage (legacy).\n"
+"*Spinner on innit call.\n"
+"= 2023-08-21 - version 2.0.6\n"
+"* Yoda validations.\n"
+"* WOO standards.\n"
+"*Fix $this-&gt;get_options('key') function is deprecated, now using $this-&gt;settings['key']."
+msgstr ""
+"= 2023-11-06 - versión 2.0.7\n"
+"*Valida si el SDK cifró los datos de la tarjeta.\n"
+"*Redirige para verificar si la validación de hash no es el misma de Tilopay.\n"
+"*Agregar un titulo por defecto.\n"
+"*Utilizar un nonce propio para verificar el proceso de finalizar la compra.\n"
+"*Hacer compatible con WOO HPOS o la forma de WP.\n"
+"*Mostrar spinner en la llamada inicial.\n"
+"= 2023-08-21 - versión 2.0.6\n"
+"* Verificación YODA.\n"
+"* Se aplica estándares de WOO.\n"
+"*Se soluciona función obsoleta \"$this-&gt;get_options('key')\", ahora se usa \"$this-&gt;settings['key']\"."
+
+#. Found in changelog list item.
+msgid "Initial release"
+msgstr "Versión inicial"
+
+#. Found in changelog list item.
+msgid "Adding text domain and security updating."
+msgstr "Se agrega el domino de texto y actualizaciones de seguridad"
+
+#. Found in changelog list item.
+msgid "Updating some validations."
+msgstr "Se actualiza algunas validación"
+
+#. Found in changelog list item.
+msgid "Using select instead checkbox."
+msgstr "Se usa la opción seleccione en vez de casilla de Verificación"
+
+#. Found in changelog list item.
+msgid "Adding setting link."
+msgstr "Se agrega el enlace a los ajustes"
+
+#. Found in changelog list item.
+msgid "Updating settings."
+msgstr "Se actualiza ajustes"
+
+#. Found in changelog list item.
+msgid "Using namespace."
+msgstr "Se usa \"namespace\""
+
+#. Found in changelog list item.
+msgid "Customize payment gateway icon and title."
+msgstr "Se personaliza los iconos y titulo de la pasarela de pago"
+
+#. Found in changelog list item.
+msgid "Traslating TILOPAY, EN and ES."
+msgstr "Se traduce Tilopay, ingles y español"
+
+#. Found in changelog list item.
+msgid "Validate if integration key are valid."
+msgstr "Se verifica si la llave de la integración es valida"
+
+#. Found in changelog list item.
+msgid "Adding options to remove icon to customize it."
+msgstr "Se agrega opción para eliminar icono para personalizar"
+
+#. Found in changelog list item.
+msgid "Fixing responsive CSS."
+msgstr "Se soluciona \"CSS\" adaptativo"
+
+#. Found in changelog list item.
+msgid "And others changes."
+msgstr "Y otros cambios"
+
+#. Found in changelog list item.
+msgid "adding sweet alert confirm message."
+msgstr "se agrega confirmación de mensaje con \"sweet alert\"."
+
+#. Found in changelog list item.
+msgid "fixing error space."
+msgstr "se soluciona error de espacio."
+
+#. Found in changelog list item.
+msgid "logo update."
+msgstr "se actualiza logo"
+
+#. Found in changelog list item.
+msgid "Add global env url."
+msgstr "Se agrega la url como variable de ambiente de manera global"
+
+#. Found in changelog list item.
+msgid "Make URL array to validate."
+msgstr "Se hace una matriz de la URL a verificar."
+
+#. Found in changelog list item.
+msgid "Remove URL validation."
+msgstr "Se elimina la verificación de URL."
+
+#. Found in changelog list item.
+msgid "For authorization and partial capture mode only show: pending payment and on hold."
+msgstr "Para el modo de autorización y captura parcial solo se muestra: pago pendiente o en espera."
+
+#. Found in changelog list item.
+msgid "Remove modal payment."
+msgstr "Se elimina la ventana de pago."
+
+#. Found in changelog list item.
+msgid "Fixing the order status for recurring payments, according the payment status."
+msgstr "Se soluciona el estado del pedido para los pagos recurrentes, según este el estado del pago."
+
+#. Found in changelog list item.
+msgid "Remove auto check to set defualt payment."
+msgstr "Se elimina la marcación automática de casilla para asignar el pago por defecto."
+
+#. Found in changelog list item.
+msgid "Fix translation."
+msgstr "Corregir traducción."
+
+#. Found in changelog list item.
+msgid "Add order note if order con is invalid."
+msgstr "Se agrega nota, si el pedido es invalido."
+
+#. Found in changelog list item.
+msgid "Show message if invalid order confirmation."
+msgstr "Se muestra mensaje, si la confirmación del pedido es invalido."
+
+#. Found in changelog list item.
+msgid "Show message if user cancel the payment process."
+msgstr "Se muestra mensaje, si el usuario anula el proceso de pago."
+
+#. Found in changelog list item.
+msgid "Adding hash to provee is return from Tilopay server."
+msgstr "Se agrega \"hash\" para verificar que el regreso sea del servidor de Tilopay."
+
+#. Found in changelog list item.
+msgid "Testing WooCommerce Version 6.2.0."
+msgstr "Se prueba WooCommerce con la versión 6.2.0."
+
+#. Found in changelog list item.
+msgid "Remove on init WCTilopay validations."
+msgstr "Se elimina la validación inicial de WCTilopay."
+
+#. Found in changelog list item.
+msgid "Fix log: the get_refund_amount function is deprecated."
+msgstr "Se corrige log: la función get_refund_amount esta obsoleta."
+
+#. Found in changelog list item.
+msgid "Fix log: data was called incorrectly."
+msgstr "Se corrige log: los datos fueron llamado de manera incorrecta."
+
+#. Found in changelog list item.
+msgid "Show message transaction is declined."
+msgstr "Se muestra mensaje, la transacción fue declinada."
+
+#. Found in changelog list item.
+msgid "Fixing WOO stats conflict."
+msgstr "Se corrige el conflicto con las estadísticas de WOO."
+
+#. Found in changelog list item.
+msgid "Webhook to update orders status."
+msgstr "Webhook para actualizar el estado del pedido."
+
+#. Found in changelog list item.
+msgid "Grid and flex system."
+msgstr "Sistema de Gird y Flex."
+
+#. Found in changelog list item.
+msgid "New icons and controll what icon to show it."
+msgstr "Nuevo icono y control de que icono mostrar."
+
+#. Found in changelog list item.
+msgid "Add spanish translation files."
+msgstr "Se agrega los archivos de traducción de español."
+
+#. Found in changelog list item.
+msgid "Fix front css and remove option to customize icon."
+msgstr "Se corrige el css y se elimina la opción de personalizar el icono."
+
+#. Found in changelog list item.
+msgid "Logo on one row with text."
+msgstr "Logo en una sola fila con el texto."
+
+#. Found in changelog list item.
+msgid "Allow woocommerce to sort Tilopay position."
+msgstr "Se permite el ordenamiento de posición de Tilopay en WooCommerce"
+
+#. Found in changelog list item.
+msgid "Fix redirec when save url payment form."
+msgstr "Se corrige cuando guardar la url del formulario de pago."
+
+#. Found in changelog list item.
+msgid "If not capture set payment pending."
+msgstr "Si no es captura, se asigna pendiente de pago."
+
+#. Found in changelog list item.
+msgid "New error handler."
+msgstr "Nuevo controlador de errores."
+
+#. Found in changelog list item.
+msgid "Adding spinner js cdn."
+msgstr "Se agrega el cdn del js para el spinner."
+
+#. Found in changelog list item.
+msgid "Allow payment with SINPE Movíl."
+msgstr "Se permite pagar con SINPE Móvil."
+
+#. Found in changelog list item.
+msgid "Show the card saved by user email."
+msgstr "Se muestra las tarjetas guardadas por el correo electrónico del usuario."
+
+#. Found in changelog list item.
+msgid "Implement the Tilopay SDK on chackout page."
+msgstr "Se implementa el SDK de Tilopay en la página de finalizar la compra."
+
+#. Found in changelog list item.
+msgid "WOO Direct Gateway or redirect way."
+msgstr "Pasarela de pago en WOO directo o por re-dirección."
+
+#. Found in changelog list item.
+msgid "-SDK jQuery incompatibility conflicts."
+msgstr "-Conflictos de incompatibilidad con el SDK jQuery"
+
+#. Found in changelog list item.
+msgid "-JS incompatibility conflicts with \"WC Provincia-Canton-Distrito plugin\"."
+msgstr "-Conflictos de incompatibilidad con \"WC Provincia-Canton-Distrito plugin\"."
+
+#. Found in changelog list item.
+msgid "Set priority 11 for load_tilopay_front_scripts to fix:"
+msgstr "Establecer prioridad 11 para solucionar load_tilopay_front_scripts:"
+
+#. Found in changelog list item.
+msgid "Load Tilopay front scripts only at checkout and pay_for_order pages."
+msgstr "Solo se carga los scripts de Tilopay en las página de finalizar compra."
+
+#. Found in changelog list item.
+msgid "Fix default card IMG."
+msgstr "Se soluciona la IMG de la tarjeta por defecto."
+
+#. Found in changelog list item.
+msgid "Fix to avoid wc_add_notice from admin."
+msgstr "Solución para evitar wc_add_notice en el admin."
+
+#. Found in changelog list item.
+msgid "Some extra CSS."
+msgstr "Algo de CSS extra."
+
+#. Found in changelog list item.
+msgid "It includes more details to make the order hash validation."
+msgstr "Se incluye más detalles para realizar el hash del pedido para la validación."
+
+#. Found in changelog list item.
+msgid "Additional details in the payload to respond based on the website language WP."
+msgstr "Detalles adicionales en la carga útil para responder basado en el idioma del sitio web WP."
+
+#. Found in changelog list item.
+msgid "Fix to load SDK only for native payment WOO."
+msgstr "Se corrige la carga del SDK, solo para el pago nativo de WOO."
+
+#. Found in changelog list item.
+msgid "Others styles."
+msgstr "Otros estilos."
+
+#. Found in changelog list item.
+msgid "Subscriptions payment is not allowed in test environment."
+msgstr "No se permite pago de suscripciones en el modo pruebas."
+
+#. Found in changelog list item.
+msgid "Checkbox save card auto check if have product subscription."
+msgstr "Marcar automáticamente la casilla de verificación de guardar tarjeta, si tiene productos de suscripciones."
+
+#. Found in changelog list item.
+msgid "Checkbox save card required for subscription products before create order."
+msgstr "Casilla de verificación de guardar tarjeta, se requiere antes de crear la orden, si el producto es de tipo suscripción."
+
+#. Found in changelog list item.
+msgid "Fix endpoints path."
+msgstr "Se corrige la ruta de los puntos finales."
+
+#. Found in changelog list item.
+msgid "Fix custome spinner and remove js overlay."
+msgstr "Se corrige el spinner y se elimina el js overlay."
+
+#. Found in changelog list item.
+msgid "Tilopay SDk (V2) integration that only using JavasCript not Jquery."
+msgstr "Se integra el SDK (V) que usa solamente JavasCript y no JQuery."
+
+#. Found in changelog list item.
+msgid "Include Tilopay order id at notes."
+msgstr "Se incluye el id de Tilopay en las notas del pedido."
+
+#. Found in changelog list item.
+msgid "Check if notes have already been added."
+msgstr "Se verifica si las notas ya habían sido agregadas."
+
+#. Found in changelog list item.
+msgid "Add param hashVersion to request V2."
+msgstr "Se agrega el parámetro \"hashVersion\" para solicitar la V2."
+
+#. Found in changelog list item.
+msgid "Validate modifications response, to update order notes."
+msgstr "Se verifica la modificación de respuesta para actualizar las notas del pedido."
+
+#. Found in changelog list item.
+msgid "KOUNT implemented for commerce that have it active."
+msgstr "Se implementa KOUNT para los comercios que lo tienen activo."

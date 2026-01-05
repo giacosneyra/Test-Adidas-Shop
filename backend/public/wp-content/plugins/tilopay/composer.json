@@ -1,0 +1,19 @@
+{
+    "name": "tilopay/tilopay-plugin",
+    "description": "Accept credit and debit cards on your WooCommerce Store",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Tilo",
+            "email": "sac@tilopay.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Tilopay\\": "./includes"
+        }
+    }
+}

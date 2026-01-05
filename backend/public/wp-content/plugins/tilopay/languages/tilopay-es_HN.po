@@ -1,0 +1,302 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: tilopay\n"
+"POT-Creation-Date: 2021-11-04 17:56+0000\n"
+"PO-Revision-Date: 2022-08-24 09:13-0600\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Last-Translator: \n"
+"Language: es_MX\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+# incluides/WCTilopay.php
+# Line64
+msgid "Unknown"
+msgstr "Desconocido"
+
+# Line71
+msgid "¡Process canceled by user!"
+msgstr "¡Proceso cancelado por el usuario!"
+
+# Line106
+msgid "¡Invalid order confirmation, please check and try again!"
+msgstr "¡Confirmación de pedido inválida, por favor verifique y vuelva a intentarlo!"
+
+# Line180
+msgid "Order with failed payment"
+msgstr "Orden con pago fallido"
+
+# Line180
+msgid "Payment was successfully"
+msgstr "El pago fue exitoso"
+
+# Line180
+msgid "Payment is pending."
+msgstr "El pago está pendiente."
+
+# Line276
+msgid "Error: The subscription does not have an associated card."
+msgstr "Error : La suscripción no tiene tarjeta asociada."
+
+# Line367
+msgid "Connection error with TILOPAY, contact sac@tilopay.com."
+msgstr "Error de comunicación con TILOPAY, contacte a sac@tilopay.com."
+
+# Line133
+msgid "Authorization:"
+msgstr "Autorización:"
+
+# Line134,181, 420
+msgid "Code:"
+msgstr "Código:"
+
+# Line107,135,182,421
+msgid "Description:"
+msgstr "Descripción:"
+
+# Line426
+msgid "Payment processing failed. Please retry, error:"
+msgstr "Error en el procesamiento del pago. Vuelva a intentarlo, error:"
+
+# Linea627
+msgid "You have license errors, please try again."
+msgstr "Presenta errores de licencia, favor intente de nuevo."
+
+# Line717,721
+msgid "Result:"
+msgstr "Resultado:"
+
+# Line377,625,630,635,720
+msgid "There seems to be an issue with this website's integration with TiloPay, please inform the seller to complete your purchase."
+msgstr "Parece que hay un problema con la integración de este sitio web con TiloPay, informe al vendedor para completar su compra."
+
+# incluides/TilopayHelper.php
+# Linea42
+msgid "Order canceled when closing the payment method"
+msgstr "Orden cancelada al cerrar el modal de pago"
+
+# Linea52
+msgid "Every 3 minutes"
+msgstr "Cada 3 minutos"
+
+# Line58
+msgid "Settings"
+msgstr "Ajustes"
+
+# Line205
+msgid "Remove icon"
+msgstr "Quitar icono"
+
+# Line206
+msgid "Use TILOPAY icon"
+msgstr "Usar icono TILOPAY"
+
+# Line207
+msgid "Are you sure to switch to authorization and partial capture mode?"
+msgstr "¿Estás seguro de cambiar al modo de autorización y captura parcial?"
+
+# Line208
+msgid "Once you receiving an order in your store with the authorization and partial capture mode, Tilopay only authorizes the transactions and the order remains in the Pending Payment status. To capture the amount and complete the transaction, an administrator can review and change the order if necessary, then change the order status to Processing. In case of not making the change of status to Processing, the transaction will be automatically canceled after 7 days. Are you sure you want to continue?"
+msgstr "Al recibir un pedido en su tienda con la modalidad autorización y captura parcial, Tilopay solamente autoriza las transacciones y el pedido queda en estado Pendiente de Pago.  Para capturar el monto y completar la transacción, un administrador de la tienda puede revisar y cambiar el pedido en caso necesario, luego debe cambiar el estado del pedido a Procesando.  En caso de no realizar el cambio de estado a Procesando, la transacción se anulará automáticamente luego de 7 días.  ¿Esta seguro que desea continuar?"
+
+# Line209
+msgid "No, cancel"
+msgstr "No, cancelar"
+
+# Line210
+msgid "Yes, i understand"
+msgstr "Si, entiendo"
+
+# Line211
+msgid "Excellent, the capture mode was not changed."
+msgstr "Excelente, no se cambió el modo de captura."
+
+# Line212
+msgid "Excellent, the capture mode was changed to authorization and partial capture."
+msgstr "Excelente, se cambió el modo de captura a autorización y captura parcial."
+
+# incluides/TilopayConfig.php
+# Line31
+msgid "Enable/Disable"
+msgstr "Habilitar/Deshabilitar"
+
+# Line32
+msgid "Enable TILOPAY"
+msgstr "Habilitar TILOPAY"
+
+# Line38
+msgid "Title"
+msgstr "Título"
+
+# Line40
+msgid "Title to be displayed in the payment methods"
+msgstr "Título que se mostrará en los métodos de pagos"
+
+# Line41
+msgid "Pay with"
+msgstr "Pagar con"
+
+# Line44
+msgid "Icon"
+msgstr "Icono"
+
+# Line46
+msgid "Click on the image to change the payment method icon."
+msgstr "Clic en la imagen para cambiar el icono del método de pago."
+
+# Line50
+msgid "Integration key"
+msgstr "Key de la integración"
+
+# Line52
+msgid "Key of the integration provided by TILOPAY."
+msgstr "Key de la integración facilitada por TILOPAY."
+
+# Line53,59
+msgid "Payment with credit cards."
+msgstr "Pago con tarjetas de crédito."
+
+# Line55
+msgid "API user"
+msgstr "Usuario del API"
+
+# Line58
+msgid "Integration user provided by TILOPAY."
+msgstr "Usuario de integración proporcionado por TILOPAY."
+
+# Line62
+msgid "API password"
+msgstr "Contraseña de API"
+
+# Line64
+msgid "Integration API password  provided by TILOPAY."
+msgstr "Contraseña de la API de integración proporcionada por TILOPAY."
+
+# Line89
+msgid "Show minicuotas BAC logo"
+msgstr "Mostrar logo minicuotas BAC"
+
+# Line88
+msgid "Show Visa logo"
+msgstr "Mostrar logo de Visa"
+
+# Line88
+msgid "Show Mastercard logo"
+msgstr "Mostrar logo de Mastercard"
+
+# Line88
+msgid "Show American Express logo"
+msgstr "Mostrar logo de American Express"
+
+# Line88
+msgid "Show credix logo"
+msgstr "Mostrar logo de credix"
+
+# Line88
+msgid "Show Sistema Clave logo"
+msgstr "Mostrar logo de Sistema Clave"
+
+# Line70, 77
+msgid "Do not show"
+msgstr "No mostrar"
+
+# Line90, 98
+msgid "Yes, show it"
+msgstr "Si, mostrar"
+
+# Line96
+msgid "Show BAC Tasa 0 logo"
+msgstr "Mostrar logo de tasa cero BAC"
+
+# Line82
+msgid "Immediate capture"
+msgstr "Capturar inmediata"
+
+# Line84
+msgid "Do not capture"
+msgstr "No capturar"
+
+# Line84
+msgid "Yes, capture"
+msgstr "Si, capturar"
+
+# Line85
+msgid "Select no, if you require authorization without capture, the orders will be in Pending payment status. To capture, the order status must be changed to Processing. Maximum date to capture: 7 days after authorized, after 7 days the collection is automatically canceled"
+msgstr "Selecione no, si requiere autorización sin captura, los pedidos quedarán en estado Pendiente de pago.  Para capturar, se debe cambiar el estado del pedido a Procesando. Fecha máxima para capturar: 7 días después de autorizada, posterior a los 7 días el cobro queda anulado automáticamente"
+
+# Line89, 96
+msgid "Order Status"
+msgstr "Estado de la orden"
+
+# Line89
+msgid "Set up logos"
+msgstr "Configurar logotipos"
+
+# Line89
+msgid "Select all"
+msgstr "Seleccionar todos"
+
+# Line89
+msgid "Search"
+msgstr "Buscar"
+
+# Line89
+msgid "Select"
+msgstr "Seleccione"
+
+# Line89
+msgid "Selected"
+msgstr "Seleccionado"
+
+# Line89
+msgid "Remove"
+msgstr "Remover"
+
+# Line89
+msgid "Select which logos to show, you can show all of them or select which ones you prefer."
+msgstr "Selecciona qué logotipos mostrar, puede seleccionar todos o seleccionar los que prefiera."
+
+# Line91,98
+msgid "Processing"
+msgstr "Procesando"
+
+# Line91
+msgid "Completed"
+msgstr "Completado"
+
+# Line92, 99
+msgid "Select the order payment status"
+msgstr "Seleccione el estado de pago del pedido"
+
+# Line98
+msgid "Pending payment"
+msgstr "Pendiente de pago"
+
+# Line98
+msgid "On hold"
+msgstr "En espera"
+
+# Line103
+msgid "Redirect payment form"
+msgstr "Redirigir al formulario de pago"
+
+# Line105
+msgid "Yes, redirect"
+msgstr "Sí, redireccionar"
+
+# Line105
+msgid "Do not redirect, use modal"
+msgstr "No redireccionar, usar modal"
+
+# Line106
+msgid "If the payment gateway by modal have conflicts with other extensions or themes, use the redirect option."
+msgstr "Si la pasarela de pago por modal tiene conflictos con otras extensiones o temas, utilice la opción de redireccionamiento."
+
+# Line103
+msgid "Show Sinpemóvil logo"
+msgstr "Mostrar el logo de Sinpemóvil"

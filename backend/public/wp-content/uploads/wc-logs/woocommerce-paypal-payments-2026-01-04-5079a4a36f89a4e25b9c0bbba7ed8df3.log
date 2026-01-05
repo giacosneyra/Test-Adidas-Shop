@@ -1,0 +1,52 @@
+2026-01-04T18:36:21+00:00 DEBUG #8603 - [New Request] GET /wp-admin/admin.php
+2026-01-04T18:36:21+00:00 DEBUG #8603 - GET https://api.woocommerce.com/integrations/ppc/v1/customer/partners/K8SKZ36LQBWXJ/merchant-integrations/
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2026-01-04T18:36:21+00:00 WARNING #8603 - [Error] Not Found CONTEXT: {"args":{"method":"GET","headers":{"Authorization":"Bearer token","Content-Type":"application/json"}},"response":{"headers":{},"body":"{"statusCode":404,"error":"Not Found","message":"Not Found"}","response":{"code":404,"message":"Not Found"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}}
+2026-01-04T18:36:23+00:00 DEBUG #2128 - [New Request] GET /wp-json/wc/v3/wc_paypal/webhooks
+2026-01-04T18:36:23+00:00 DEBUG #2128 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2026-01-04T18:36:42+00:00 DEBUG #9034 - [New Request] POST /wp-json/wc/v3/wc_paypal/login_link
+2026-01-04T18:36:42+00:00 INFO #9034 - Generating onboarding URL for: production-express_checkout-
+2026-01-04T18:36:44+00:00 DEBUG #9034 - POST https://api.woocommerce.com/integrations/ppc/v2/customer/partner-referrals
+Request Body: {"partner_config_override":{"return_url":"https:\/\/testpage.local\/wp-admin\/admin.php?page=wc-settings&tab=checkout&section=ppcp-gateway&ppcpToken=eyJrIjoicHJvZHVjdGlvbi1leHByZXNzX2NoZWNrb3V0LSIsInUiOjEsImgiOiI0YTYxM2I2NmVjMjMzOTMyNzM3OGZkMzc5Nzc4MmJjMiJ9","return_url_description":"Return to your shop.","show_add_credit_card":false},"products":["EXPRESS_CHECKOUT"],"legal_consents":[{"type":"SHARE_DATA_CONSENT","granted":true}],"operations":[{"operation":"API_INTEGRATION","api_integration_preference":{"rest_api_integration":{"integration_method":"PAYPAL","integration_type":"FIRST_PARTY","first_party_details":{"features":["PAYMENT","REFUND","ADVANCED_TRANSACTIONS_SEARCH","TRACKING_SHIPMENT_READWRITE","BILLING_AGREEMENT"],"seller_nonce":"a1233wtergfsdt4365tzrshgfbaewa36AGa1233wtergfsdt4365tzrshgfbaewa36AG"}}}}]}
+Response Debug ID: 37857edf63c2f
+Response: Array
+(
+    [code] => 201
+    [message] => Created
+)
+
+
+2026-01-04T18:36:47+00:00 DEBUG #8817 - [New Request] POST /wp-json/wc/v3/wc_paypal/login_link
+2026-01-04T18:36:47+00:00 DEBUG #2821 - [New Request] POST /wp-json/wc/v3/wc_paypal/login_link
+2026-01-04T18:36:47+00:00 DEBUG #8817 - Loaded onboarding URL from cache: production-express_checkout-
+2026-01-04T18:36:47+00:00 DEBUG #2821 - Loaded onboarding URL from cache: production-express_checkout-
+2026-01-04T18:36:47+00:00 INFO #8817 - Using cached onboarding URL for: production-express_checkout-
+2026-01-04T18:36:47+00:00 INFO #2821 - Using cached onboarding URL for: production-express_checkout-
+2026-01-04T18:36:55+00:00 DEBUG #4601 - [New Request] GET /wp-json/wc/v3/wc_paypal/webhooks
+2026-01-04T18:36:55+00:00 DEBUG #4601 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2026-01-04T18:36:56+00:00 DEBUG #2920 - [New Request] POST /wp-json/wc/v3/wc_paypal/login_link
+2026-01-04T18:36:56+00:00 DEBUG #2920 - Loaded onboarding URL from cache: production-express_checkout-
+2026-01-04T18:36:56+00:00 INFO #2920 - Using cached onboarding URL for: production-express_checkout-

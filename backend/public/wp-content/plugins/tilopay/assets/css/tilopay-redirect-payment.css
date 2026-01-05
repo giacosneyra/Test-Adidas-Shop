@@ -1,0 +1,123 @@
+/*
+flex init column, row on small screen
+*/
+.flex-container-tilopay-front {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-left: 45px;
+  }
+  
+  .flex-container-tpay-bac {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 51px;
+  }
+  
+  .flex-container-tpay-bac > div {
+    width: 213px;
+    margin: 5px 0px;
+    text-align: center;
+  }
+  
+  .flex-item-left-tilopay-front {
+    flex: 50%;
+  }
+  
+  .flex-item-right-tilopay-front {
+    flex: 48%;
+    /* border-left-color: red;
+    border-left-style: solid;
+    border-left-width: 2px; 
+    margin: 22px 2px;*/
+    padding: 5px;
+  }
+  
+  .flex-item-icon-tilopay-front {
+    flex: 100%;
+  }
+  
+  .flex-item-row-tilopay-front {
+    flex: 100%;
+    margin-right: 34%;
+    margin-bottom: 10px;
+    margin-top: -26px;
+  }
+  
+  .tpay-icon-c {
+    width: 109px;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 40%;
+    margin-top: 1px;
+    margin-left: 5px;
+  }
+  
+  .payment_method_tilopay {
+    align-items: center !important;
+    padding-bottom: 18px !important;
+  }
+  /* Responsive layout - makes a one column-layout instead of a two-column layout */
+  /* @media (max-width: 1000px) {
+    .flex-item-right-tilopay-front,
+    .flex-item-left-tilopay-front {
+      flex: 100%;
+      border-left-style: none;
+      border-left-width: 0px;
+      margin: 6px;
+      padding: 0px;
+    }
+    .tpay-icon-c {
+      width: 50% !important;
+      max-width: 100% !important;
+      max-height: 100% !important;
+      margin-right: 50%;
+      margin-top: 5px;
+    }
+  }   */
+  
+  /*for credi cards rows and BAC row*/
+  .Container-tilopay {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: 51px;
+    padding-bottom: 10px;
+    margin-top: -15px;
+  }
+  
+  .Flex-tilopay {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    list-style: none;
+    margin: 0;
+  }
+  
+  .Flex-tilopay-title {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0;
+    padding: 0px 0px 0px 5px;
+  }
+  
+  .Flex-item-tilopay {
+    position: relative;
+  }
+  
+  .Flex-item-tilopay:after {
+    content: "";
+    position: absolute;
+    background: white;
+    width: 1px;
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .payment_method_tilopay > label::before {
+    padding-top: 3px !important;
+    padding-right: 5px !important;
+  }
+  

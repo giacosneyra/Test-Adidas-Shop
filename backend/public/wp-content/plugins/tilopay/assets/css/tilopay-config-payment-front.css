@@ -1,0 +1,261 @@
+/*
+flex init column, row on small screen
+*/
+.flex-container-tilopay-front {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  margin-left: 45px;
+}
+
+.flex-container-tpay-bac {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: auto;
+}
+
+.flex-container-tpay-bac > div {
+  width: 213px;
+  margin: 5px 0px;
+  text-align: center;
+}
+
+.flex-item-left-tilopay-front {
+  flex: 50%;
+}
+
+.flex-item-right-tilopay-front {
+  flex: 48%;
+  /* border-left-color: red;
+  border-left-style: solid;
+  border-left-width: 2px;
+  margin: 22px 2px;*/
+  padding: 5px;
+}
+
+.flex-item-icon-tilopay-front {
+  flex: 100%;
+}
+
+.flex-item-row-tilopay-front {
+  flex: 100%;
+  margin-right: 34%;
+  margin-bottom: 10px;
+  margin-top: -26px;
+}
+
+.tpay-icon-c {
+  margin-top: 1px;
+  margin-left: 5px;
+}
+
+.payment_method_tilopay {
+  align-items: center !important;
+  padding-bottom: 18px !important;
+}
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+/* @media (max-width: 1000px) {
+  .flex-item-right-tilopay-front,
+  .flex-item-left-tilopay-front {
+    flex: 100%;
+    border-left-style: none;
+    border-left-width: 0px;
+    margin: 6px;
+    padding: 0px;
+  }
+  .tpay-icon-c {
+    width: 50% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    margin-right: 50%;
+    margin-top: 5px;
+  }
+}   */
+
+/*for credi cards rows and BAC row*/
+.Container-tilopay {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 10px;
+}
+
+.Flex-tilopay {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  list-style: none;
+  margin: 0;
+}
+
+.Flex-tilopay-title {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 0;
+  padding: 0px 0px 0px 5px;
+}
+
+.Flex-item-tilopay {
+  position: initial;
+}
+
+.Flex-item-tilopay:after {
+  content: "";
+  position: absolute;
+  background: white;
+  width: 1px;
+  height: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.payment_method_tilopay > label::before {
+  padding-top: 3px !important;
+  padding-right: 5px !important;
+}
+
+/*Tlipay modal*/
+
+.tilopay-modal-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.tilopay-modal-container.active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 9999;
+}
+
+.tilopay-modal-container .tilopay-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(0 0 0 / 18%);
+  z-index: 1;
+}
+
+.tilopay-modal-container .tilopay-modal {
+  position: relative;
+  z-index: 2;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 3px;
+  max-width: 600px;
+  margin: 13% auto auto auto;
+}
+/*
+.btn-tilopay-close-modal{
+  border-radius: 28px;
+    font-size: 14px !important;
+    font-family: "Poppins", sans-serif !important;
+    -webkit-appearance: none;
+    outline: none !important;
+    transition: all 0.1s;
+    padding: 15px;
+    display: inline-block;
+    font-weight: 400;
+    vertical-align: middle;
+    border: 1px solid transparent;
+}
+*/
+
+.tilopay-btn-light {
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.tilopay-btn-danger {
+  color: #fff;
+  background-color: #f05050c4;
+  border-color: #f05050c4;
+}
+
+.tilopay-btn-danger:hover{
+  color: #fff;
+  background-color: #f05050;
+  border-color: #f05050;
+}
+
+.tilopay-btn-group {
+  display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.payFormTilopay {
+  position: relative;
+}
+
+#overlaySubscriptions {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+#overlaySubscriptions p {
+  font-size: 20px;
+  text-align: center;
+  color: #e2401c;
+  background: #ffffffa8;
+}
+
+.tpayEnvAlert {
+  background-color: #e2401c;
+  border-radius: 2px;
+  color: #fff;
+  clear: both;
+  border-left: .6180469716em solid rgba(0,0,0,.15);
+  padding: 1em;
+  position: relative;
+}
+
+.tpayEnvAlert a {
+  color: #fff;
+  font-weight: bold;
+}
+
+#loaderTpay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(175 175 175 / 80%);
+  z-index: 9999;
+}
+
+.spinnerTypayInit {
+  border: 4px solid rgb(255 255 255 / 80%);
+  border-top: 4px solid #e2401c; /* Cambia el color según tus preferencias */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

@@ -1,0 +1,465 @@
+# Copyright (C) 2024 Tilopay
+# This file is distributed under the GPLv2.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tilopay 3.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tilopay\n"
+"POT-Creation-Date: 2024-09-19 16:58-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Domain: tilopay\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: C:\laragon\www\tilopay-plugin-wp\wp-content\plugins\tilopay\tilopay.php
+msgid "Tilopay"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: C:\laragon\www\tilopay-plugin-wp\wp-content\plugins\tilopay\tilopay.php
+msgid "https://wordpress.org/plugins/tilopay/"
+msgstr ""
+
+#. Description of the plugin
+#: C:\laragon\www\tilopay-plugin-wp\wp-content\plugins\tilopay\tilopay.php
+msgid "Accept credit and debit cards on your WooCommerce Store"
+msgstr ""
+
+#. Author URI of the plugin
+#: C:\laragon\www\tilopay-plugin-wp\wp-content\plugins\tilopay\tilopay.php
+msgid "https://tilopay.com"
+msgstr ""
+
+#: includes/TilopayConfig.php:32
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/TilopayConfig.php:33
+msgid "Enable TILOPAY"
+msgstr ""
+
+#: includes/TilopayConfig.php:39
+msgid "Title"
+msgstr ""
+
+#: includes/TilopayConfig.php:41
+msgid "Title to be displayed in the payment methods"
+msgstr ""
+
+#: includes/TilopayConfig.php:43 includes/WCTilopay.php:896
+#: includes/WCTilopay.php:898 includes/WCTilopay.php:931
+#: includes/WCTilopay.php:934
+msgid "Pay with"
+msgstr ""
+
+#: includes/TilopayConfig.php:52
+msgid "Integration key"
+msgstr ""
+
+#: includes/TilopayConfig.php:54
+msgid "Key of the integration provided by TILOPAY."
+msgstr ""
+
+#: includes/TilopayConfig.php:55 includes/TilopayConfig.php:61
+#: includes/TilopayConfig.php:67
+msgid "Payment with credit cards."
+msgstr ""
+
+#: includes/TilopayConfig.php:58
+msgid "API user"
+msgstr ""
+
+#: includes/TilopayConfig.php:60
+msgid "Integration user provided by TILOPAY."
+msgstr ""
+
+#: includes/TilopayConfig.php:64
+msgid "API password"
+msgstr ""
+
+#: includes/TilopayConfig.php:66
+msgid "Integration API password  provided by TILOPAY."
+msgstr ""
+
+#: includes/TilopayConfig.php:70
+msgid "Immediate capture"
+msgstr ""
+
+#: includes/TilopayConfig.php:72
+msgid "Yes, capture"
+msgstr ""
+
+#: includes/TilopayConfig.php:72
+msgid "Do not capture"
+msgstr ""
+
+#: includes/TilopayConfig.php:73
+msgid "Select no, if you require authorization without capture, the orders will be in Pending payment status. To capture, the order status must be changed to Processing. Maximum date to capture: 7 days after authorized, after 7 days the collection is automatically canceled"
+msgstr ""
+
+#: includes/TilopayConfig.php:77
+msgid "Order Status"
+msgstr ""
+
+#: includes/TilopayConfig.php:79
+msgid "Processing"
+msgstr ""
+
+#: includes/TilopayConfig.php:79
+msgid "Completed"
+msgstr ""
+
+#: includes/TilopayConfig.php:80
+msgid "Select the order payment status"
+msgstr ""
+
+#: includes/TilopayConfig.php:84
+msgid "Set up logos"
+msgstr ""
+
+#: includes/TilopayConfig.php:85
+msgid "Select which logos to show, you can show all of them or select which ones you prefer."
+msgstr ""
+
+#: includes/TilopayConfig.php:103
+msgid "Embedded native payment or through redirect"
+msgstr ""
+
+#: includes/TilopayConfig.php:105
+msgid "Redirect to payment form"
+msgstr ""
+
+#: includes/TilopayConfig.php:105
+msgid "Native checkout payment form"
+msgstr ""
+
+#: includes/TilopayConfig.php:106
+msgid "Select if you want to redirect the user to process the payment or use native checkout payment"
+msgstr ""
+
+#: includes/TilopayHelper.php:26 includes/TilopayHelper.php:27
+#: includes/TilopayHelper.php:96
+msgid "Settings"
+msgstr ""
+
+#: includes/TilopayHelper.php:75
+msgid "Order canceled when closing the payment method"
+msgstr ""
+
+#: includes/TilopayHelper.php:89
+msgid "Every 3 minutes"
+msgstr ""
+
+#: includes/TilopayHelper.php:189 includes/WCTilopay.php:167
+#: includes/WCTilopay.php:806
+msgid "Capture"
+msgstr ""
+
+#. translators: %s action type.
+#: includes/TilopayHelper.php:198 includes/TilopayHelper.php:315
+#: includes/WCTilopay.php:254 includes/WCTilopay.php:372
+#: includes/WCTilopay.php:826 includes/WCTilopay.php:1838
+msgid "%s Tilopay id:"
+msgstr ""
+
+#: includes/TilopayHelper.php:199 includes/TilopayHelper.php:317
+msgid "Result:"
+msgstr ""
+
+#: includes/TilopayHelper.php:211 includes/TilopayHelper.php:334
+#: includes/WCTilopay.php:751
+msgid "Connection error with TILOPAY, contact sac@tilopay.com."
+msgstr ""
+
+#. translators: %s the order number.
+#: includes/TilopayHelper.php:214 includes/TilopayHelper.php:338
+msgid "Error, the refund of the order no.%s could not be made."
+msgstr ""
+
+#: includes/TilopayHelper.php:311
+msgid "Refund"
+msgstr ""
+
+#: includes/TilopayHelper.php:311
+msgid "Reverse"
+msgstr ""
+
+#: includes/TilopayHelper.php:316 includes/WCTilopay.php:251
+#: includes/WCTilopay.php:369 includes/WCTilopay.php:390
+#: includes/WCTilopay.php:823 includes/WCTilopay.php:1840
+#: includes/WCTilopay.php:1853 includes/WCTilopay.php:1871
+msgid "Code:"
+msgstr ""
+
+#: includes/TilopayHelper.php:362
+msgid "Select all"
+msgstr ""
+
+#: includes/TilopayHelper.php:363
+msgid "Search"
+msgstr ""
+
+#: includes/TilopayHelper.php:364
+msgid "Select"
+msgstr ""
+
+#: includes/TilopayHelper.php:365
+msgid "Selected"
+msgstr ""
+
+#: includes/TilopayHelper.php:366
+msgid "Remove"
+msgstr ""
+
+#: includes/TilopayHelper.php:371
+msgid "Remove icon"
+msgstr ""
+
+#: includes/TilopayHelper.php:372
+msgid "Use TILOPAY icon"
+msgstr ""
+
+#: includes/TilopayHelper.php:373
+msgid "Are you sure to switch to authorization and partial capture mode?"
+msgstr ""
+
+#: includes/TilopayHelper.php:374
+msgid "Once you receiving an order in your store with the authorization and partial capture mode, Tilopay only authorizes the transactions and the order remains in the Pending Payment status. To capture the amount and complete the transaction, an administrator can review and change the order if necessary, then change the order status to Processing. In case of not making the change of status to Processing, the transaction will be automatically canceled after 7 days. Are you sure you want to continue?"
+msgstr ""
+
+#: includes/TilopayHelper.php:375
+msgid "No, cancel"
+msgstr ""
+
+#: includes/TilopayHelper.php:376
+msgid "Yes, i understand"
+msgstr ""
+
+#: includes/TilopayHelper.php:377
+msgid "Excellent, the capture mode was not changed."
+msgstr ""
+
+#: includes/TilopayHelper.php:378
+msgid "Excellent, the capture mode was changed to authorization and partial capture."
+msgstr ""
+
+#: includes/WCTilopay.php:52
+msgid "TILOPAY"
+msgstr ""
+
+#: includes/WCTilopay.php:53
+msgid "TILOPAY."
+msgstr ""
+
+#: includes/WCTilopay.php:140
+msgid "Unknown"
+msgstr ""
+
+#: includes/WCTilopay.php:167 includes/WCTilopay.php:806
+msgid "Authorization"
+msgstr ""
+
+#: includes/WCTilopay.php:181
+msgid "¡Process canceled by user!"
+msgstr ""
+
+#. translators: %s the order number.
+#: includes/WCTilopay.php:210 includes/WCTilopay.php:252
+#: includes/WCTilopay.php:314 includes/WCTilopay.php:333
+#: includes/WCTilopay.php:370 includes/WCTilopay.php:392
+#: includes/WCTilopay.php:824 includes/WCTilopay.php:1795
+#: includes/WCTilopay.php:1841 includes/WCTilopay.php:1860
+#: includes/WCTilopay.php:1888
+msgid "Description:"
+msgstr ""
+
+#. translators: %s the order number.
+#: includes/WCTilopay.php:210 includes/WCTilopay.php:213
+#: includes/WCTilopay.php:222 includes/WCTilopay.php:333
+#: includes/WCTilopay.php:335 includes/WCTilopay.php:343
+#: includes/WCTilopay.php:1797
+msgid "Invalid order confirmation, please check and try again or contact the seller to completed you order no.%s"
+msgstr ""
+
+#: includes/WCTilopay.php:250 includes/WCTilopay.php:822
+#: includes/WCTilopay.php:1839
+msgid "Authorization:"
+msgstr ""
+
+#: includes/WCTilopay.php:388 includes/WCTilopay.php:1795
+#: includes/WCTilopay.php:1870 includes/WCTilopay.php:1881
+#: includes/WCTilopay.php:1888 includes/WCTilopay.php:1893
+msgid "Order with failed payment"
+msgstr ""
+
+#. translators: %1$s the message from tilopay, %2$s the order number.
+#: includes/WCTilopay.php:402
+msgid "%1$s, contact the seller to complete your order no.%2$s. If you try to pay again, your payment will be rejected."
+msgstr ""
+
+#: includes/WCTilopay.php:618
+msgid "Error: The subscription does not have an associated card."
+msgstr ""
+
+#: includes/WCTilopay.php:674
+msgid "Processing recurring payments requires a card token, recurrence does not have a card token."
+msgstr ""
+
+#: includes/WCTilopay.php:686 includes/WCTilopay.php:764
+#: includes/WCTilopay.php:1618 includes/WCTilopay.php:1623
+#: includes/WCTilopay.php:1627 includes/WCTilopay.php:1994
+#: includes/WCTilopay.php:2095 includes/WCTilopay.php:2217
+#: src/js/frontend/index.js:395 src/js/frontend/payment-method.js:85
+msgid "There seems to be an issue with this website's integration with Tilopay, please inform the seller to complete your purchase."
+msgstr ""
+
+#. translators: %s message get from Tilopay call api.
+#: includes/WCTilopay.php:834
+msgid "Payment processing failed. Please retry, Tilopay responded with error: %s"
+msgstr ""
+
+#: includes/WCTilopay.php:1057 includes/WCTilopay.php:1219
+#: src/js/frontend/index.js:233
+msgid "Subscriptions payment is not allowed in test environment."
+msgstr ""
+
+#: includes/WCTilopay.php:1064
+msgid "Payment methods"
+msgstr ""
+
+#: includes/WCTilopay.php:1066
+msgid "Select payment method"
+msgstr ""
+
+#: includes/WCTilopay.php:1070
+msgid "Saved cards"
+msgstr ""
+
+#: includes/WCTilopay.php:1072
+msgid "Select card"
+msgstr ""
+
+#: includes/WCTilopay.php:1083 src/js/frontend/index.js:460
+msgid "The payment instructions with SINPE Móvil will be shown on the next screen."
+msgstr ""
+
+#: includes/WCTilopay.php:1087
+msgid "Card number"
+msgstr ""
+
+#: includes/WCTilopay.php:1091
+msgid "Expiry date"
+msgstr ""
+
+#: includes/WCTilopay.php:1095
+msgid "Card code ( CVC )"
+msgstr ""
+
+#: includes/WCTilopay.php:1102
+msgid "Save card"
+msgstr ""
+
+#: includes/WCTilopay.php:1122 src/js/frontend/payment-sinpe-movil.js:28
+msgid "Pay with SINPE Móvil"
+msgstr ""
+
+#: includes/WCTilopay.php:1123 src/js/frontend/payment-sinpe-movil.js:29
+msgid "To make the payment with SINPE Móvil, you must make sure to make the payment in the following way:"
+msgstr ""
+
+#: includes/WCTilopay.php:1124 src/js/frontend/payment-sinpe-movil.js:30
+msgid "Telephone:"
+msgstr ""
+
+#: includes/WCTilopay.php:1125 src/js/frontend/payment-sinpe-movil.js:31
+msgid "Exact amount:"
+msgstr ""
+
+#: includes/WCTilopay.php:1126 src/js/frontend/payment-sinpe-movil.js:32
+msgid "Specify in the description:"
+msgstr ""
+
+#: includes/WCTilopay.php:1130 src/js/frontend/payment-sinpe-movil.js:40
+msgid "Cancel"
+msgstr ""
+
+#: includes/WCTilopay.php:1133 src/js/frontend/payment-sinpe-movil.js:43
+msgid "Waiting payment"
+msgstr ""
+
+#: includes/WCTilopay.php:1212 src/js/frontend/index.js:226
+msgid "You cannot pay subscriptions with SINPE Movíl, please pay with a credit or debit card"
+msgstr ""
+
+#: includes/WCTilopay.php:1237 includes/WCTilopay.php:1257
+#: includes/WCTilopay.php:1271 includes/WCTilopay.php:2037
+#: src/js/frontend/index.js:242
+msgid "Check credit or debit card details"
+msgstr ""
+
+#: includes/WCTilopay.php:1244 includes/WCTilopay.php:1250
+#: includes/WCTilopay.php:1264
+msgid "Please contact the seller because we were unable to encrypt your card details to process the payment on Tilopay or refresh the page and try again."
+msgstr ""
+
+#: includes/WCTilopay.php:1576
+msgid "Card encryption failed, trying to redirect to the form to make the payment."
+msgstr ""
+
+#: includes/WCTilopay.php:1620
+msgid "You have license errors, please try again."
+msgstr ""
+
+#: includes/WCTilopay.php:1841
+msgid "Payment was successfully"
+msgstr ""
+
+#: includes/WCTilopay.php:1860
+msgid "Payment is pending."
+msgstr ""
+
+#: includes/WCTilopay.php:1993 src/js/frontend/index.js:383
+msgid "TEST MODE ENABLED. In test mode, you can use the card numbers listed in"
+msgstr ""
+
+#: includes/WCTilopay.php:2035 src/js/frontend/payment-card.js:169
+msgid "Pay with another card"
+msgstr ""
+
+#: src/js/frontend/index.js:401
+msgid "Oops! Something went wrong."
+msgstr ""
+
+#: src/js/frontend/index.js:404
+msgid "Try again"
+msgstr ""
+
+#: src/js/frontend/index.js:442
+msgid "No puede pagar suscripciones con SINPE Móvil, por favor pague con una tarjeta de crédito o débito"
+msgstr ""
+
+#: src/js/frontend/payment-card.js:31
+msgid "For subscriptions you must click on the checkbox save card"
+msgstr ""
+
+#: src/js/frontend/payment-card.js:100
+msgid "Please enter a valid expiration date."
+msgstr ""
+
+#: src/js/frontend/payment-card.js:121
+msgid "Please enter a CVV valid for AMEX cards."
+msgstr ""
+
+#: src/js/frontend/payment-card.js:124
+msgid "Please enter a valid CVV for"
+msgstr ""
+
+#: src/js/frontend/payment-method.js:23
+msgid "Disabled for subscriptions"
+msgstr ""

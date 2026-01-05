@@ -1,0 +1,27 @@
+.button.refund-items {display: none !important;}
+
+
+#payment .payment_methods > .woocommerce-PaymentMethod > label, #payment .payment_methods > .wc_payment_method > label {
+    display: flex!important;
+}
+li.wc_payment_method.payment_method_factilo label {	
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-end;
+}
+#payment .payment_methods > .wc_payment_method > label::before {
+max-width: 8%;
+padding-top: 10px;
+margin: 0 !important
+}
+
+li.wc_payment_method.payment_method_factilo img{
+width: 90% !important;
+max-width: 90% !important;
+min-width: 90% !important;
+margin-bottom: 10px !important;
+}
+li.wc_payment_method.payment_method_factilo img:nth-child(1){
+min-width: 90%;
+}
