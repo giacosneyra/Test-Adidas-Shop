@@ -2,6 +2,8 @@
 
 Este proyecto utiliza **WordPress como backend** y **Next.js como frontend** en un enfoque Headless, usando **GraphQL** para consumir datos. Está diseñado para ser desplegado en un entorno local con **LocalWP** y se puede migrar fácilmente a producción.
 
+# Video de Presentacion
+https://drive.google.com/drive/folders/1p9Fg-64Fmk5iHSOvFg77IFRXBeh7GjJV?usp=drive_link
 ---
 
 ## Tecnologías utilizadas
