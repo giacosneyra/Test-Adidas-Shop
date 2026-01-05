@@ -1,5 +1,10 @@
 # Proyecto Headless WordPress con Next.js
-https://drive.google.com/file/d/1oF_ZzAORZL1HrdbLDXUvte5Pt4lhdacJ/view?usp=sharing
+<img width="2560" height="2884" alt="My-Store-01-04-2026_11_13_PM" src="https://github.com/user-attachments/assets/904587be-5075-4df7-ab3f-4172940a0573" />
+<img width="2560" height="1801" alt="My-Store-01-04-2026_11_13_PM (1)" src="https://github.com/user-attachments/assets/5b3465ae-e97d-4c86-aacf-40cffa57d208" />
+<img width="2560" height="1271" alt="My-Store-01-04-2026_11_13_PM (2)" src="https://github.com/user-attachments/assets/1f64a8e4-a2fb-48c6-91ce-38738d15e381" />
+<img width="2560" height="2730" alt="My-Store-01-04-2026_11_14_PM" src="https://github.com/user-attachments/assets/37b03650-7d6f-4e98-b4e6-7d9c102038e0" />
+<img width="2560" height="1271" alt="My-Store-01-04-2026_11_14_PM (1)" src="https://github.com/user-attachments/assets/dc04d862-8344-44bd-80dd-b8383a3c4483" />
+
 Este proyecto utiliza **WordPress como backend** y **Next.js como frontend** en un enfoque Headless, usando **GraphQL** para consumir datos. Está diseñado para ser desplegado en un entorno local con **LocalWP** y se puede migrar fácilmente a producción.
 
 # Video de Presentacion
