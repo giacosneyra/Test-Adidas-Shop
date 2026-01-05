@@ -104,6 +104,8 @@ Crear base de datos vacía o seleccionar existente.
 
 Hacer clic en Import y subir el archivo .sql.
 
+# Para una facil configuracion del wordpress, tambien esta agregado en el backend una zip con todo el sitio en WordPress comprimido con el plugin ALL IN ONE MIGRATOR
+
 💡 Tip: Copia también la carpeta wp-content para mover temas, plugins y uploads.
 
 Contribuciones
