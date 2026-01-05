@@ -1,0 +1,7 @@
+# Node.js
+/frontend/node_modules
+/frontend/.next
+
+# WordPress
+/backend/wp-content/uploads
+/backend/wp-config.php
