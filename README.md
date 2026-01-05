@@ -41,3 +41,72 @@ Este proyecto utiliza **WordPress como backend** y **Next.js como frontend** en 
 Accesos WordPress Site:
 User:GianfrancoTest
 Password: GianfrancoTest2026
+
+2. Configurar frontend (Next.js)
+
+Abrir terminal en la carpeta /frontend.
+
+Instalar dependencias:
+
+npm install
+
+
+Levantar servidor de desarrollo:
+
+npm run dev
+
+
+Para producción:
+
+npm run build
+npm start
+
+
+Configurar URL de GraphQL en .env.local:
+
+NEXT_PUBLIC_GRAPHQL_URL=http://localhost:10000/graphql
+
+
+Ajusta el puerto según el que LocalWP asigne a tu sitio.
+
+Uso
+
+Acceder al frontend en http://localhost:3000.
+
+Editar contenido desde WordPress (backend).
+
+Rutas dinámicas de productos o posts se manejan con [slug] en Next.js.
+
+Componentes reutilizables se encuentran en /components.
+
+Exportar/Importar Base de Datos
+
+Para exportar desde LocalWP:
+
+Abrir AdminNeo o phpMyAdmin.
+
+Seleccionar la base de datos de tu sitio.
+
+Hacer clic en Export → Formato SQL → Descargar.
+
+Para importar:
+
+Abrir AdminNeo o phpMyAdmin en el nuevo entorno.
+
+Crear base de datos vacía o seleccionar existente.
+
+Hacer clic en Import y subir el archivo .sql.
+
+💡 Tip: Copia también la carpeta wp-content para mover temas, plugins y uploads.
+
+Contribuciones
+
+Crear nuevas ramas para cada funcionalidad.
+
+Hacer pull request al branch principal.
+
+Mantener código limpio, modular y documentado.
+
+Contacto
+
+Correo: gianfraoficial@gmail.com
